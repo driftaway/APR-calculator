@@ -5,11 +5,9 @@ $('#custom-html-value > label').click(() => {
     if (document.querySelector('#custom-html-value > label > input').checked == false) {
         mbankMath.isInsurance = false
         $('.insuranceText, .monthlyInsurance').hide()
-            //$('.monthlyInsurance').hide()
     } else {
         mbankMath.isInsurance = true
         $('.insuranceText, .monthlyInsurance').show()
-            //$('.monthlyInsurance').show()
     }
     update()
 })

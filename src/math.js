@@ -221,6 +221,5 @@
             })
 
             return this.rrso = myRRSO() * 1
-            console.log(percent5)
         }
     }
